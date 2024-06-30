@@ -20,8 +20,6 @@ lang: ja-jp
 私は構文の明快さによって、Pythonと恋に落ちました。
 以下は基本的に実行可能な疑似コードです。
 
-フィードバッグは大歓迎です! [@louiedinh](http://twitter.com/louiedinh) または louiedinh [at] [google's email service] にご連絡下さい!
-
 Note: この記事はPython 3に内容を絞っています。もし古いPython 2.7を学習したいなら、 [こちら](http://learnxinyminutes.com/docs/pythonlegacy/) をご確認下さい。
 
 ```python
@@ -998,12 +996,10 @@ print(say(say_please=True))  # Can you buy me a beer? Please! I am poor :(
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
 * [Ideas for Python Projects](http://pythonpracticeprojects.com)
 * [The Official Docs](http://docs.python.org/3/)
-* [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/)
+* [Hitchhiker's Guide to Python](http://docs.python-guide.org/)
 * [Python Course](http://www.python-course.eu/index.php)
 * [First Steps With Python](https://realpython.com/learn/python-first-steps/)
 * [A curated list of awesome Python frameworks, libraries and software](https://github.com/vinta/awesome-python)
-* [30 Python Language Features and Tricks You May Not Know About](http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html)
-* [Official Style Guide for Python](https://www.python.org/dev/peps/pep-0008/)
+* [Official Style Guide for Python](https://peps.python.org/pep-0008/)
 * [Python 3 Computer Science Circles](http://cscircles.cemc.uwaterloo.ca/)
 * [Dive Into Python 3](http://www.diveintopython3.net/index.html)
-* [A Crash Course in Python for Scientists](http://nbviewer.jupyter.org/gist/anonymous/5924718)

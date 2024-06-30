@@ -18,7 +18,6 @@ widely implemented of the more recent specifications and the later versions are
 largely similar (by comparison FORTRAN 77 is a very different language).
 
 ```fortran
-
 ! This is a comment.
 
 program example         ! declare a program called example.
@@ -440,6 +439,34 @@ contains
 
 end module fruity
 
+! ISO Standard Fortran 2008 introduced the DO CONCURRENT construct to allow you
+! to express loop-level parallelism
+
+integer :: i
+real :: array(100)
+
+DO CONCURRENT (i = 1:size(array))
+    array(i) = sqrt(i**i)
+END DO
+
+
+! Only calls to pure functions are allowed inside the loop and we can declare
+! multiple indices:
+
+integer :: x, y
+real :: array(8, 16)
+
+do concurrent (x = 1:size(array, 1), y = 1:size(array, 2))
+    array(x, y) = real(x)
+end do
+
+! loop indices can also declared inside the contruct:
+
+real :: array(8, 16)
+
+do concurrent (integer :: x = 1:size(array, 1), y = 1:size(array, 2))
+    array(x, y) = real(x)
+end do
 ```
 
 ### More Resources

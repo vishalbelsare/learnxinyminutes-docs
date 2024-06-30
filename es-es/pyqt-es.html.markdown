@@ -1,6 +1,6 @@
 ---
-category: tool
-tool: PyQT
+category: framework
+framework: PyQT
 filename: learnpyqt-es.py
 contributors:
     - ["Nathan Hughes", "https://github.com/sirsharpest"]
@@ -38,7 +38,6 @@ def window():
 
 if __name__ == '__main__':
     window()
-
 ```
 
 Para poder hacer uso de las funciones más avanzades en **pyqt** necesitamos agregar elementos adicionales.

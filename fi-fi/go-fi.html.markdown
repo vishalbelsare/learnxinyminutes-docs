@@ -418,7 +418,7 @@ func requestServer() {
 
 ## Lisää luettavaa
 
-Go-tietämyksen alku ja juuri on sen [virallinen verkkosivu]()(https://go.dev/).
+Go-tietämyksen alku ja juuri on sen [virallinen verkkosivu](https://go.dev/).
 Siellä voit seurata oppitunteja, askarrella vuorovaikutteisesti sekä lukea paljon.
 Kierroksen lisäksi [dokumentaatio](https://go.dev/doc/) pitää sisällään tietoa
 siistin Go-koodin kirjoittamisesta, pakettien ja komentojen käytöstä sekä julkaisuhistoriasta.
@@ -438,4 +438,4 @@ lähdekoodi tulee esille!
 Toinen loistava paikka oppia on [Go by example](https://gobyexample.com/).
 
 Go Mobile lisää tuen mobiilialustoille (Android ja iOS). Voit kirjoittaa pelkällä Go:lla natiiveja applikaatioita tai tehdä kirjaston joka sisältää sidoksia
-Go-paketista, jotka puolestaan voidaan kutsua Javasta (Android) ja Objective-C:stä (iOS). Katso [lisätietoja](https://github.com/golang/go/wiki/Mobile).
+Go-paketista, jotka puolestaan voidaan kutsua Javasta (Android) ja Objective-C:stä (iOS). Katso [lisätietoja](https://go.dev/wiki/Mobile).

@@ -12,10 +12,7 @@ Python fue creado por Guido Van Rossum en el principio de los 90'. Ahora es uno
 de los lenguajes más populares en existencia. Me enamoré de Python por su claridad sintáctica.
 Es básicamente pseudocódigo ejecutable.
 
-¡Comentarios serán muy apreciados! Pueden contactarme en [@louiedinh](http://twitter.com/louiedinh) o louiedinh [at] [servicio de email de google]
-
 ```python
-
 # Comentarios de una línea comienzan con una almohadilla (o signo gato)
 
 """ Strings multilinea pueden escribirse
@@ -565,9 +562,8 @@ print(decir(decir_por_favor=True))  # ¿Puedes comprarme una cerveza? ¡Por favo
 * [Dive Into Python](http://www.diveintopython.net/)
 * [Ideas for Python Projects](http://pythonpracticeprojects.com)
 * [The Official Docs](http://docs.python.org/3/)
-* [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/)
+* [Hitchhiker's Guide to Python](http://docs.python-guide.org/)
 * [Python Module of the Week](http://pymotw.com/3/)
-* [A Crash Course in Python for Scientists](http://nbviewer.ipython.org/5920182)
 
 ### Encuadernados
 

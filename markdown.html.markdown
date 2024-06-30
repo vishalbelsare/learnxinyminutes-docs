@@ -16,25 +16,6 @@ Markdown also varies in implementation from one parser to a next. This
 guide will attempt to clarify when features are universal or when they are
 specific to a certain parser.
 
-- [HTML Elements](#html-elements)
-- [Headings](#headings)
-- [Simple text styles](#simple-text-styles)
-- [Paragraphs](#paragraphs)
-- [Lists](#lists)
-- [Code blocks](#code-blocks)
-- [Horizontal rule](#horizontal-rule)
-- [Links](#links)
-  - [Table of contents](#table-of-contents)
-- [Images](#images)
-- [Miscellany](#miscellany)
-  - [Auto-links](#auto-links)
-  - [Auto-links for emails](#auto-links-for-emails)
-  - [Escaping characters](#escaping-characters)
-  - [Keyboard keys](#keyboard-keys)
-  - [Tables](#tables)
-- [Markdownlint](#markdownlint)
-- [Further reading](#further-reading)
-
 ## HTML Elements
 
 Markdown is a superset of HTML, so any HTML file is valid Markdown.
@@ -390,5 +371,5 @@ For more info, check out John Gruber's official post of syntax [here](http://dar
 
 If you want to learn more on some major Markdown flavors' features, see:
 
-- [GitHub flavored Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [GitLab flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html)
+- [GitHub Flavored Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html)
